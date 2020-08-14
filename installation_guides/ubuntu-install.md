@@ -43,19 +43,19 @@ Log into the server with a user with root privileges, such as the account create
 sudo apt update
 ```
 
-To see a list of upgradable packages
+To see a list of upgradable packages.
 
 ```bash
 sudo apt list --upgradable
 ```
 
-To run the upgrade
+To run the upgrade.
 
 ```bash
 sudo apt upgrade
 ```
 
-To clean up after an upgrade
+To clean up after an upgrade.
 
 ```bash
 sudo apt autoremove
@@ -84,7 +84,7 @@ Find the commented line **#PermitRootLogin prohibit-password**  and change this 
 PermitRootLogin no
 ```
 
-n.b. In `nano` press ``Ctrl`` + `O` to save your changes followed by ``Ctrl`` + ``X`` to exit.
+*n.b. In `nano` press ``Ctrl`` + `O` to save your changes followed by ``Ctrl`` + ``X`` to exit.*
 
 ## Configure Ubuntu Firewall UFW
 
